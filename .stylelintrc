@@ -1,0 +1,15 @@
+{
+	"extends": ["stylelint-config-standard"],
+	"rules": {
+		"color-hex-length": "long",
+		"no-descending-specificity": null,
+		"no-duplicate-selectors": null,
+		"comment-empty-line-before": "never",
+		"property-no-unknown": [ true, {
+			"ignoreProperties": [
+				"composes"
+			]
+		}]
+	},
+	"syntax": "scss"
+}

@@ -1,0 +1,46 @@
+{
+	"name": "vite-react-scss-template",
+	"description": "Boilerplate for vite react scss project.",
+	"version": "0.0.0",
+	"author": "Your name <your email>",
+	"license": "MIT",
+	"type": "module",
+	"engineStrict": true,
+	"engines": {
+		"node": "^20.9.0",
+		"npm": "^10.5.2"
+	},
+	"scripts": {
+		"start": "vite",
+		"build:dev": "tsc -b && vite build --mode development",
+		"build:prod": "tsc -b && vite build --mode production",
+		"test": "echo Need to Implement!",
+		"lint": "npm-run-all lint:src lint:test",
+		"lint:src": "eslint src",
+		"lint:test": "eslint test"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.1.0",
+		"@types/node": "^20.14.2",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@typescript-eslint/eslint-plugin": "^7.13.0",
+		"@typescript-eslint/parser": "^7.13.0",
+		"@vitejs/plugin-react": "^4.3.1",
+		"eslint": "^8.57.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-simple-import-sort": "^12.1.0",
+		"globals": "^15.5.0",
+		"npm-run-all": "^4.1.5",
+		"sass": "^1.77.5",
+		"stylelint": "^16.6.1",
+		"stylelint-config-standard-scss": "^13.1.0",
+		"typescript": "^5.4.5",
+		"vite": "^5.3.1",
+		"vite-tsconfig-paths": "^4.3.2"
+	}
+}
